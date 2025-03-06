@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 15px 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.alert-button {
+    background-color: #ff4500;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.sobre-nos {
+    text-align: center;
+    padding: 50px 20px;
+    background: white;
+}
+
+.sobre-nos h1 {
+    font-size: 28px;
+    color: #007bff;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.text {
+    width: 50%;
+    text-align: left;
+}
+
+.image img {
+    width: 400px;
+    height: auto;
+}
+
+.nossa-equipe {
+    text-align: center;
+    background: white;
+    padding: 40px;
+}
+
+.team-photo {
+    width: 300px;
+    height: 200px;
+    background: #ddd;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.desenvolvedores {
+    text-align: center;
+    background: white;
+    padding: 40px;
+}
+
+.dev-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.dev-card {
+    width: 150px;
+    height: 100px;
+    background: #ccc;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.cta {
+    text-align: center;
+    padding: 50px;
+    background: white;
+}
+
+.cta .highlight {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.register-button {
+    background-color: #ff4500;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
